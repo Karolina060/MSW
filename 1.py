@@ -55,7 +55,7 @@ print(f"Výpočet trvá {(konec_d - start_d)} sekund.")
 
 #integrál
 start_i = process_time()
-vysledek_i = integrate.quad(lambda x: (3*x**2-6*x+3), 1, 5)
+vysledek_i = integrate.quad(lambda x: (5*x**4-10*x**3+3*x**2-8*x-20), 3, 6)
 konec_i = process_time()
 
 print(f"Výpočet integrálu je {vysledek_i[0]}.")

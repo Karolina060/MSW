@@ -8,6 +8,6 @@ random.seed(seed)
 nahodne = random.random()
 
 print(f"Vygenerovaný semínko: {seed}")
+print("\n")
 print(f"Vygenerované náhodné číslo: {nahodne}")
-
 

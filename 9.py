@@ -50,6 +50,7 @@ print(f"TRAPEZOID: {fu1}, liší se: {a1 - fu1}")
 print(f"ROMBERG: {fu2}, liší se: {a1 - fu2}")
 print(f"SIMPSON: {fu3}, liší se: {a1 - fu3}")
 print(f"GAUSS: {fu4}, liší se: {a1 - fu4}")
+print("\n")
 
 #Funkce 2
 print("Funkce: 3*x -e^(4*x)")
@@ -62,6 +63,7 @@ print(f"TRAPEZOID: {fu1}, liší se: {a1 - fu1}")
 print(f"ROMBERG: {fu2}, liší se: {a1 - fu2}")
 print(f"SIMPSON: {fu3}, liší se: {a1 - fu3}")
 print(f"GAUSS: {fu4}, liší se: {a1 - fu4}")
+print("\n")
 
 #Funkce 3
 print("Funkce: 2*sin(-2*x+2)")
@@ -74,4 +76,4 @@ print(f"TRAPEZOID: {fu1}, liší se: {a1 - fu1}")
 print(f"ROMBERG: {fu2}, liší se: {a1 - fu2}")
 print(f"SIMPSON: {fu3}, liší se: {a1 - fu3}")
 print(f"GAUSS: {fu4}, liší se: {a1 - fu4}")
-
+print("\n")
